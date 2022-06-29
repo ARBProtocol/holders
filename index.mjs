@@ -11,8 +11,8 @@ const getTokenOwners = (offset, size, token) =>
 const ownersSet = new Set();
 var size = 50;
 var offset = 0;
-const limit = 1000; // change this number to change the limit of owners you want to get
-const token = "orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE"; // change this for a different token ID
+const limit = 300; // change this number to change the limit of owners you want to get
+const token = "9tzZzEHsKnwFL1A3DyFJwj36KnZj3gZ7g4srWp9YTEoh"; // change this for a different token ID
 while (size <= limit) {
     const response = await getTokenOwners(offset, size, token);
     const obj = JSON.parse(JSON.stringify(response?.data.result));
