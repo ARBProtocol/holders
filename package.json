@@ -1,0 +1,17 @@
+{
+  "name": "get-token-owners",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "marjmcj",
+  "dependencies": {
+    "bs58": "^4.0.1",
+    "buffer-layout": "^1.2.2",
+    "dotenv": "^14.3.0",
+    "got": "^12.0.1",
+    "promise-retry": "^2.0.1"
+  }
+}
